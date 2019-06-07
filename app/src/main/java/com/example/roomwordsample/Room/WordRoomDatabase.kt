@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-
+//When you modify the database schema, you'll need to update the version number and define a migration strategy
 @Database(entities = [Word::class], version = 1)
 abstract class WordRoomDatabase: RoomDatabase() {
 
